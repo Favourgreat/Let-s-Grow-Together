@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Let's Grow Together — Landing</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Meta for nice mobile appearance -->
+  <meta name="theme-color" content="#6A1B9A" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav-inner">
+      <a class="brand" href="#home"><span class="brand-symbol">🌱</span> Let's Grow Together</a>
+      <button id="menuToggle" class="hamburger" aria-label="Toggle menu">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#books" class="nav-link">Books</a>
+        <a href="#join" class="nav-link">Join</a>
+        <a href="#contact" class="nav-link cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Let's Grow Together</h1>
+        <p class="lead">Nurturing spirit, mind and purpose through curated books, daily Bible reading and an intentional prayer life.</p>
+        <div class="hero-ctas">
+          <a href="#books" class="btn btn-primary">Explore Books</a>
+          <a href="#join" class="btn btn-outline">Join Study Group</a>
+        </div>
+        <p class="verse">“Your word is a lamp to my feet and a light to my path.” — Psalm 119:105</p>
+      </div>
+
+      <div class="hero-cards">
+        <!-- five small feature cards -->
+        <div class="feature-card">
+          <img src="image/emmanuel-phaeton-XRgNsvUabn8-unsplash.jpg" alt="Leadership book cover">
+          <div class="fc-body">
+            <h4>Leadership</h4>
+            <p>Grow in influence and character.</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <img src="image/mukul-joshi-ApOkwverSmU-unsplash.jpg" alt="Personal development cover">
+          <div class="fc-body">
+            <h4>Personal Development</h4>
+            <p>Habits, mindset & productivity.</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <img src="image/ivan-shilov-MjQ4rsuHF4U-unsplash.jpg" alt="Finance cover">
+          <div class="fc-body">
+            <h4>Finance</h4>
+            <p>Practical stewardship & wisdom.</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <img src="image/elin-melaas-kBDBb88S0fE-unsplash.jpg" alt="Relationship cover">
+          <div class="fc-body">
+            <h4>Relationship</h4>
+            <p>Healthy family & friendships.</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <img src="image/thought-catalog-DxAzOKSiPoE-unsplash.jpg" alt="Spiritual cover">
+          <div class="fc-body">
+            <h4>Spiritual</h4>
+            <p>Daily devotionals & Bible study.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section-light">
+    <div class="container about-grid">
+      <div class="about-media">
+        <img src="image/WhatsApp Image 2025-10-30 at 11.23.59_d87be256.jpg" alt="Group reading">
+      </div>
+      <div class="about-text">
+        <h2>Aim & Objective</h2>
+        <p>To attain spiritual, mental, and personal growth among young individuals, producing a sound spirit, soul and body — through reading, prayer and community.</p>
+
+        <h3>Goal</h3>
+        <p>To cultivate the culture of study (books & Bible) and uphold a prayer life that builds our walk with the Holy Spirit and produces relevant men and women before God and society.</p>
+
+        <ul class="about-list">
+          <li>Daily Bible reading encouragement</li>
+          <li>Curated genres & recommended reads</li>
+          <li>Monthly group meetings and accountability</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKS / CATALOG -->
+  <section id="books" class="section-hero">
+    <div class="container">
+      <h2 class="center">Book Categories</h2>
+      <!--<p class="subtle center">Click any card to open a sample/read link. (Static site — files can be hosted inside /books/GENRE/)</p>
+
+      <div class="catalog-grid">
+        <!-- Card - each card links to a sample PDF or to an external resource -->
+        <article class="book-card" data-href="https://drive.google.com/drive/folders/1goPHMVuw3XstCVoJkABP7SAyCt9sZMAN?usp=drive_link">
+          <div class="card-media"><img src="image/emmanuel-phaeton-XRgNsvUabn8-unsplash.jpg" alt=""></div>
+          <div class="card-body">
+            <h3>Leadership</h3>
+            <p class="muted">Leadership books to sharpen your influence and character.</p>
+            <a class="link-arrow" href="#books">Open</a>
+          </div>
+        </article>
+
+        <article class="book-card" data-href="https://source.unsplash.com/900x1200/?open-book,self-help">
+          <div class="card-media"><img src="image/mukul-joshi-ApOkwverSmU-unsplash.jpg" alt=""></div>
+          <div class="card-body">
+            <h3>Personal Development</h3>
+            <p class="muted">Habits, productivity and personal growth classics.</p>
+            <a class="link-arrow" href="#books">Open</a>
+          </div>
+        </article>
+
+        <article class="book-card" data-href="https://source.unsplash.com/900x1200/?finance,books">
+          <div class="card-media"><img src="image/ivan-shilov-MjQ4rsuHF4U-unsplash.jpg" alt=""></div>
+          <div class="card-body">
+            <h3>Finance</h3>
+            <p class="muted">Money management, stewardship and investing basics.</p>
+            <a class="link-arrow" href="#books">Open</a>
+          </div>
+        </article>
+
+        <article class="book-card" data-href="https://drive.google.com/file/d/1ckqG5MZCPE9PWWc4ngJoZJt-MBNrNEZF/view?usp=drive_link">
+          <div class="card-media"><img src="image/elin-melaas-kBDBb88S0fE-unsplash.jpg" alt=""></div>
+          <div class="card-body">
+            <h3>Relationship</h3>
+            <p class="muted">Guides for marriage, friendship & family life.</p>
+            <a class="link-arrow" href="#books">Open</a>
+          </div>
+        </article>
+
+        <article class="book-card" data-href="https://source.unsplash.com/900x1200/?bible,devotional">
+          <div class="card-media"><img src="image/thought-catalog-DxAzOKSiPoE-unsplash.jpg" alt=""></div>
+          <div class="card-body">
+            <h3>Spiritual</h3>
+            <p class="muted">Devotionals and Bible study guides to grow your spirit.</p>
+            <a class="link-arrow" href="#books">Open</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN / CTA -->
+  <section id="join" class="section-cta">
+    <div class="container cta-grid">
+      <div>
+        <h2>Join Our Monthly Study Group</h2>
+        <p>Monthly meetings, accountability, Q&A and group prayer to help you stay consistent in reading and prayer.</p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary">Get Involved</a>
+          <a href="#books" class="btn btn-outline">Browse Books</a>
+        </div>
+      </div>
+      <div class="join-media">
+        <img src="image/Gemini_Generated_Image_ad0pw6ad0pw6ad0p.png" alt="Group meeting">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-light">
+    <div class="container contact-grid">
+      <div>
+        <h2>Contact & Join</h2>
+        <p>Have suggestions or want us to add a specific book? Reach out — we’ll reply.</p>
+        <p class="muted"><strong>Email:</strong> lets.grow.together@example.com</p>
+        <p class="muted"><strong>WhatsApp:</strong> +234 8XX XXX XXXX</p>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+  <input name="name" placeholder="Your name" required>
+  <input type="email" name="email" placeholder="Your email" required>
+  <textarea name="message" rows="5" placeholder="Message..." required></textarea>
+  <div class="form-actions">
+    <a 
+      href="https://wa.link/6lljqt" 
+      target="_blank" 
+      class="btn btn-primary"
+    >
+      Send Message
+    </a>
+    <button type="button" id="resetBtn" class="btn btn-outline">Reset</button>
+  </div>
+</form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">Let's Grow Together</div>
+      <small class="muted">© <span id="year"></span> — Nurturing spirit, mind & purpose</small>
+      <!---<div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+      </div>--
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
